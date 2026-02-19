@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 500px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Drop Area */
+.drop-area {
+    border: 2px dashed #4a90e2;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.drop-area:hover {
+    background-color: #f0f8ff;
+}
+
+/* Highlight while dragging */
+.highlight {
+    background-color: #e6f2ff;
+    border-color: #2d6cdf;
+}
+
+/* Browse Button */
+#browseBtn {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2d6cdf;
+    color: white;
+    cursor: pointer;
+}
+
+#browseBtn:hover {
+    background-color: #1e4fa3;
+}
+
+/* Preview Section */
+.preview {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* File Item */
+.file-item {
+    background: #f9f9f9;
+    padding: 8px;
+    border-radius: 8px;
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.file-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
